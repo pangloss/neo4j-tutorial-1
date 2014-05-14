@@ -122,63 +122,63 @@
   <target name="run.koans"
           depends="test, compile.koans, run.koan1, run.koan2, run.koan3, run.koan4, run.koan5, run.koan6, run.koan7, run.koan8, run.koan9, run.koan1, run.koan11, run.koan12, run.koan13, run.koan14, run.koan15"/>
 
-  <target name="run.koan1" depends="test, compile.koans">
+  <target name="run.koan1" depends="compile.koans">
     <koan number="1"/>
   </target>
 
-  <target name="run.koan2" depends="test, compile.koans">
+  <target name="run.koan2" depends="compile.koans">
     <koan number="2"/>
   </target>
 
-  <target name="run.koan3" depends="test, compile.koans">
+  <target name="run.koan3" depends="compile.koans">
     <koan number="3"/>
   </target>
 
-  <target name="run.koan4" depends="test, compile.koans">
+  <target name="run.koan4" depends="compile.koans">
     <koan number="4"/>
   </target>
 
-  <target name="run.koan5" depends="test, compile.koans">
+  <target name="run.koan5" depends="compile.koans">
     <koan number="5"/>
   </target>
 
-  <target name="run.koan6" depends="test, compile.koans">
+  <target name="run.koan6" depends="compile.koans">
     <koan number="6"/>
   </target>
 
-  <target name="run.koan7" depends="test, compile.koans">
+  <target name="run.koan7" depends="compile.koans">
     <koan number="7"/>
   </target>
 
-  <target name="run.koan8" depends="test, compile.koans">
+  <target name="run.koan8" depends="compile.koans">
     <koan number="8"/>
   </target>
 
-  <target name="run.koan9" depends="test, compile.koans">
+  <target name="run.koan9" depends="compile.koans">
     <koan number="9"/>
   </target>
 
-  <target name="run.koan10" depends="test, compile.koans">
+  <target name="run.koan10" depends="compile.koans">
     <koan number="10"/>
   </target>
 
-  <target name="run.koan11" depends="test, compile.koans">
+  <target name="run.koan11" depends="compile.koans">
     <koan number="11"/>
   </target>
 
-  <target name="run.koan12" depends="test, compile.koans">
+  <target name="run.koan12" depends="compile.koans">
     <koan number="12"/>
   </target>
 
-  <target name="run.koan13" depends="test, compile.koans">
+  <target name="run.koan13" depends="compile.koans">
     <koan number="13"/>
   </target>
 
-  <target name="run.koan14" depends="test, compile.koans">
+  <target name="run.koan14" depends="compile.koans">
     <koan number="14"/>
   </target>
 
-  <target name="run.koan15" depends="test, compile.koans">
+  <target name="run.koan15" depends="compile.koans">
     <koan number="15"/>
   </target>
 
